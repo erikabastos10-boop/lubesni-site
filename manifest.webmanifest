@@ -1,0 +1,9 @@
+{
+  "name": "LUBESNI — Acervo Institucional",
+  "short_name": "LUBESNI",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0f0f10",
+  "theme_color": "#0f0f10",
+  "description": "Acervo institucional e de comprovação da LUBESNI."
+}
