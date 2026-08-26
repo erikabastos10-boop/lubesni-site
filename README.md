@@ -7,6 +7,7 @@ Site estático responsivo preparado como **dossiê institucional digital** e bas
 - `historia.html` — trajetória e linha do tempo
 - `projetos.html` — executados x em estruturação
 - `agremiacoes.html` — rede histórica
+- `agremiacao-renascer-nova-iguacu.html` — página individual da G.R.E.S. Renascer de Nova Iguaçu
 - `acervo.html` — comprovações e links
 - `contato.html` — dados institucionais
 - `assets/docs/portfolio-lubesni.pdf` — portfólio-fonte
@@ -26,4 +27,4 @@ Para cada nova ação, registrar:
 7. status: EXECUTADO ou EM ESTRUTURAÇÃO.
 
 ### Atenção
-O portfólio histórico registra 17 escolas associadas em período anterior; a atualização institucional de 2026 informa 16 escolas filiadas. O site torna essa diferença explícita para evitar inconsistência documental.
+A atualização institucional de agosto de 2026 informa 17 escolas filiadas. O site deve ser atualizado sempre que houver mudança formal de filiação, preservando também os registros históricos do acervo.

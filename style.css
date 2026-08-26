@@ -167,3 +167,17 @@ linear-gradient(180deg,#121214,#0f0f10)}
  .record-panel dl,.source-row{grid-template-columns:1fr}
  .acervo-cards,.doc-method{grid-template-columns:1fr}
 }
+
+/* ===== AGREMIAÇÕES V3 ===== */
+.entity-link{display:block;color:inherit;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.entity-link:hover{transform:translateY(-3px);border-color:rgba(244,189,33,.48);box-shadow:0 14px 34px rgba(0,0,0,.24)}
+.entity-link strong{display:block;margin-top:14px;color:var(--gold);font-size:.82rem}
+.agremiacao-photo{margin:0;border-radius:22px;overflow:hidden;border:1px solid var(--line);background:#171719}
+.agremiacao-photo img{display:block;width:100%;min-height:340px;max-height:560px;object-fit:cover}
+.agremiacao-photo figcaption{padding:12px 15px;color:var(--muted);font-size:.8rem}
+.history-list{display:grid;gap:14px}
+.history-item{display:grid;grid-template-columns:86px 1fr;gap:18px;padding:20px;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
+.history-item strong{color:var(--gold);font-size:1.2rem}
+.history-item h3{margin:0 0 6px}
+.history-item p{margin:0;color:var(--muted)}
+@media(max-width:620px){.history-item{grid-template-columns:1fr;gap:6px}.agremiacao-photo img{min-height:250px}}
