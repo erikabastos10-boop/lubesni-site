@@ -15,11 +15,11 @@ document.querySelectorAll('.filter button').forEach(b=>{
 
 const countdownEl=document.getElementById('countdown-aniversario');
 if(countdownEl){
- const eventDate=new Date('2026-10-13T00:00:00-03:00');
+ const eventDate=new Date('2026-10-18T00:00:00-03:00');
  const today=new Date();
  const diffDays=Math.ceil((eventDate-today)/86400000);
  if(diffDays>1){countdownEl.textContent='Faltam '+diffDays+' dias';}
  else if(diffDays===1){countdownEl.textContent='É amanhã!';}
  else if(diffDays===0){countdownEl.textContent='É hoje!';}
- else{countdownEl.textContent='Celebrado em 13 de outubro de 2026';}
+ else{countdownEl.textContent='Celebrado em 18 de outubro de 2026';}
 }
